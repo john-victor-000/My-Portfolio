@@ -1,0 +1,111 @@
+body {
+    background-color: #1d1c22;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+.header-content {
+    text-align: center;
+    margin-top: 100px;
+}
+.header-content img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.header-content h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+.header-content p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+.buttons {
+    margin-top: 30px;
+}
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin: 0 10px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn-primary {
+    background: linear-gradient(to right, #ff5858, #f09819);
+    color: #fff;
+}
+.btn-secondary {
+    background-color: #4c4b52;
+    color: #fff;
+}
+section {
+    padding: 60px 50px;
+    text-align: center;
+}
+.about-content, .services-content, .work-content, .contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin: 10px 0;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project {
+    background-color: #292830;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(to right, #ff5858, #f09819);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background: linear-gradient(to right, #f09819, #ff5858);
+}
