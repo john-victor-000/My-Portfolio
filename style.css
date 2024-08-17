@@ -16,7 +16,23 @@ nav a {
     text-decoration: none;
     margin: 0 15px;
     font-weight: 500;
+    padding: 15px 30px;
+    font-size: 14px;
+    color: white;
+    background-color: #3498db;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    outline: none;
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.8);
 }
+nav a:hover {
+        background-color: rgba(153, 50, 204, 1); /* Medium Orchid, fully opaque */
+        box-shadow: 0 0 10px rgba(153, 50, 204, 0.8), 0 0 20px rgba(153, 50, 204, 0.6);
+      transform: translateY(-3px); /* Slight lift effect */
+    }
 .header-content {
     text-align: center;
     margin-top: 100px;
