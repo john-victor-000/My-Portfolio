@@ -31,7 +31,7 @@ nav a {
 nav a:hover {
         background-color: rgba(153, 50, 204, 1); /* Medium Orchid, fully opaque */
         box-shadow: 0 0 10px rgba(153, 50, 204, 0.8), 0 0 20px rgba(153, 50, 204, 0.6);
-      transform: translateY(-3px); /* Slight lift effect */
+      transform: translateY(-5px); /* Slight lift effect */
     }
 .header-content {
     text-align: center;
